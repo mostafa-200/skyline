@@ -39,7 +39,7 @@ class LoginController extends Controller
             $request->filled('remember')
         );
 
-        return redirect()->intended(route('dashboard.index'))
+        return redirect()->route('dashboard.index')
             ->with('success', 'Welcome back!');
     }
 }
