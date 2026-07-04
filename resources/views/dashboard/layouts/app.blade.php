@@ -54,11 +54,11 @@
 
                 <!-- Session Alert Messages -->
                 @if(session('success'))
-                    <x-dashboard.ui.alert type="success" :message="session('success')" />
+                    <x-dashboard::ui.alert type="success" :message="session('success')" />
                 @endif
 
                 @if(session('error'))
-                    <x-dashboard.ui.alert type="danger" :message="session('error')" />
+                    <x-dashboard::ui.alert type="danger" :message="session('error')" />
                 @endif
 
                 <!-- Page Main Content -->

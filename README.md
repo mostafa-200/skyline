@@ -86,4 +86,5 @@ php artisan test
 - **Routing**: Session routing configured in `routes/web.php` with `guest:dashboard` and `auth:dashboard` middleware restrictions.
 - **Blade Components**: Clean, reusable layouts and forms under `resources/views/dashboard/components/ui/` (inputs, textareas, selects, custom toggles, etc.).
 - **Controllers & Services**: Controller classes parse input validation via Form Requests, delegating database writing operations to separate Service files.
-- **Full Report**: Refer to [docs/dashboard-foundation-report.md](file:///c:/Users/DELL/Downloads/skyline/skyline/docs/dashboard-foundation-report.md) for full architectural details.
+- **Full Report**: Refer to [docs/dashboard-foundation-report.md](file:///c:/Users/DELL/Downloads/skyline/skyline/docs/dashboard-foundation-report.md) for installation and guard configurations.
+- **Detailed Project Guide**: Refer to [docs/project-explanation.md](file:///c:/Users/DELL/Downloads/skyline/skyline/docs/project-explanation.md) for a detailed database schema explanation, posts structure, and coding patterns.
